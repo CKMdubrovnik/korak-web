@@ -1,0 +1,74 @@
+{
+    "hero": {
+          "badge": "🌱 Društveno poduzetništvo · Održivi razvoj · Zajednica",
+          "title_line1": "Gradimo održivu",
+          "title_line2": "budućnost Dubrovnika,",
+          "title_line3": "korak po korak.",
+          "lead": "KORAK je udruga za kreativno-održivi razvoj i konkurentnost koja od 2018. jača društveno poduzetništvo, okolišnu svijest i suradnju između udruga, škola, poslovnog sektora i lokalne zajednice.",
+          "cta_primary": "Upoznaj naše programe →",
+          "cta_secondary": "Postani volonter",
+          "cards": [
+                  { "icon": "♻️", "label": "Zero Waste Network" },
+                  { "icon": "🏗️", "label": "Korak u sigurnost" },
+                  { "icon": "🤝", "label": "Društveno poduzetništvo" },
+                  { "icon": "🌍", "label": "Dio CKM Dubrovnik obitelji" }
+          ]
+    },
+    "stats": [
+          { "num": "2018.", "label": "Godina osnivanja udruge KORAK" },
+          { "num": "2", "label": "Aktivna programa: Korak u sigurnost i Zero Waste Network" },
+          { "num": "4", "label": "Ključne skupine partnera: škole, poslovni sektor, uprava, mediji" },
+          { "num": "01", "label": "Jedan od programa krovne udruge CKM Dubrovnik" }
+    ],
+    "about": {
+          "intro": "KORAK Dubrovnik djeluje u području društvenog poduzetništva i održivog razvoja, povezujući edukaciju, resurse i međusektorsku suradnju.",
+          "mission": "Jačanje temelja društvenog poduzetništva i održivog razvoja u regiji kroz edukativne programe, resurse i međusektorsku suradnju — s ciljem izgradnje podrške poduzetnicima posvećenima unaprjeđenju društvene i okolišne stvarnosti Dubrovnika.",
+          "vision": "Podizanje svijesti o održivim praksama, motiviranje zajednice na pozitivne promjene te izgradnja stabilne, dugoročno prosperitetne društveno-poduzetničke infrastrukture regije.",
+          "audience": [
+                  "Društveni poduzetnici",
+                  "Škole i nastavno osoblje",
+                  "Učenici i mladi",
+                  "Lokalna zajednica Dubrovnika",
+                  "Donatori i partneri",
+                  "Javni i privatni sektor"
+          ]
+    },
+    "programs": [
+          { "icon": "📚", "title": "Edukacija i radionice", "desc": "Neformalni edukativni programi za škole i zajednicu — od zaštite okoliša do osobnih i profesionalnih vještina." },
+          { "icon": "🤝", "title": "Umrežavanje i suradnja", "desc": "Povezujemo udruge, škole, sveučilišta, poslovni sektor i lokalnu samoupravu radi zajedničkih inicijativa." },
+          { "icon": "💶", "title": "Resursi i financijska podrška", "desc": "Posredujemo između poduzetnika i izvora financiranja — subvencija, kredita, investicija i crowdfundinga." },
+          { "icon": "📣", "title": "Promocija i javna svijest", "desc": "Kampanje i komunikacija koje podižu svijest o održivim praksama i društvenom poduzetništvu." },
+          { "icon": "📊", "title": "Mjerenje i evaluacija", "desc": "Pratimo učinak naših programa kako bismo ih kontinuirano unaprjeđivali." },
+          { "icon": "🏛️", "title": "Suradnja s vlašću", "desc": "Zagovaramo politike i sudjelujemo u natječajima koji podupiru održivi razvoj Dubrovnika." }
+    ],
+    "projects": [
+          {
+                  "brand": "sigurnost",
+                  "tag": "SIGURNOST",
+                  "title": "Korak u sigurnost",
+                  "desc": "Edukacija javnosti o potresima i postavljanje oznaka evakuacijskih mjesta u Dubrovniku — projekt koji gradi otpornost zajednice na prirodne katastrofe. Sufinancirala Europska unija iz Europskog socijalnog fonda.",
+                  "badge": "Vlastiti vizualni identitet · ESF projekt"
+          },
+          {
+                  "brand": "default",
+                  "tag": "ODRŽIVOST",
+                  "title": "Zero Waste Network",
+                  "desc": "Jačanje kompetencija nastavnog i nenastavnog osoblja škola za pisanje i provedbu projekata te neformalni edukativni program o razvrstavanju otpada, recikliranju, kompostiranju i održivosti — uz popratnu kampanju na društvenim mrežama.",
+                  "badge": ""
+          }
+    ],
+    "partners": [
+          "Udruge i NVO",
+          "Škole i sveučilišta",
+          "Poslovni sektor",
+          "Lokalna samouprava",
+          "Mediji"
+    ],
+    "contact": {
+          "address_line1": "Obala Ivana Pavla II 44a",
+          "address_line2": "20000 Dubrovnik",
+          "email": "marko.zmirak@ckmdubrovnik.hr",
+          "phone": "+385 99 422 7167",
+          "president": "Marko Žmirak"
+    }
+}
