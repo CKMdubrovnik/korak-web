@@ -1,0 +1,87 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Pristup uređivanju je ograničen na prijavu putem Netlify Identity —
+# vidi netlify/functions/identity-signup.js za ograničenje na @ckmdubrovnik.hr
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "hr"
+
+collections:
+  - name: "site"
+    label: "Sadržaj web stranice"
+    files:
+      - file: "content/site.json"
+        label: "KORAK Dubrovnik — cijeli sadržaj"
+        name: "site"
+        fields:
+          - label: "Naslovnica (hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Značka iznad naslova", name: "badge", widget: "string" }
+              - { label: "Naslov — 1. redak", name: "title_line1", widget: "string" }
+              - { label: "Naslov — 2. redak", name: "title_line2", widget: "string" }
+              - { label: "Naslov — 3. redak (istaknuta zelena boja)", name: "title_line3", widget: "string" }
+              - { label: "Uvodni tekst", name: "lead", widget: "text" }
+              - { label: "Tekst glavnog gumba", name: "cta_primary", widget: "string" }
+              - { label: "Tekst drugog gumba", name: "cta_secondary", widget: "string" }
+              - label: "Kartice s desne strane naslovnice"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Ikona (emoji)", name: "icon", widget: "string" }
+                  - { label: "Tekst", name: "label", widget: "string" }
+          - label: "Brojke (statistika)"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Broj / godina", name: "num", widget: "string" }
+              - { label: "Opis", name: "label", widget: "string" }
+          - label: "O nama"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Uvodna rečenica", name: "intro", widget: "text" }
+              - { label: "Misija", name: "mission", widget: "text" }
+              - { label: "Vizija", name: "vision", widget: "text" }
+              - label: "Kome je KORAK namijenjen (popis)"
+                name: "audience"
+                widget: "list"
+          - label: "Programi"
+            name: "programs"
+            widget: "list"
+            fields:
+              - { label: "Ikona (emoji)", name: "icon", widget: "string" }
+              - { label: "Naslov", name: "title", widget: "string" }
+              - { label: "Opis", name: "desc", widget: "text" }
+          - label: "Projekti"
+            name: "projects"
+            widget: "list"
+            fields:
+              - label: "Vizualni identitet"
+                name: "brand"
+                widget: "select"
+                options:
+                  - { label: "Opći KORAK identitet", value: "default" }
+                  - { label: "Vlastiti identitet (Korak u sigurnost)", value: "sigurnost" }
+                default: "default"
+              - { label: "Oznaka (kratka riječ, npr. ODRŽIVOST)", name: "tag", widget: "string" }
+              - { label: "Naslov projekta", name: "title", widget: "string" }
+              - { label: "Opis", name: "desc", widget: "text" }
+              - { label: "Tekst uz logo (samo za 'sigurnost')", name: "badge", widget: "string", required: false }
+          - label: "Partneri (popis)"
+            name: "partners"
+            widget: "list"
+          - label: "Kontakt"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Adresa — redak 1", name: "address_line1", widget: "string" }
+              - { label: "Adresa — redak 2", name: "address_line2", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Telefon", name: "phone", widget: "string" }
+              - { label: "Predsjednik udruge", name: "president", widget: "string" }
