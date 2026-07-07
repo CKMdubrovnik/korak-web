@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <style>
   :root{
     --blue:#004395;
@@ -431,7 +430,7 @@
     </div>
     <div class="footer-bottom">
       <span>© <span id="year"></span> KORAK Dubrovnik. Sva prava pridržana.</span>
-      <span>Dio CKM Dubrovnik obitelji udruga · <a href="#" id="editLoginLink" style="color:inherit;text-decoration:underline;">Prijava za uređivanje</a></span>
+      <span>Dio CKM Dubrovnik obitelji udruga · <a href="/admin/" style="color:inherit;text-decoration:underline;">Uredi stranicu</a></span>
     </div>
   </div>
 </footer>
@@ -443,18 +442,6 @@
   const navLinks = document.getElementById('navLinks');
   burger.addEventListener('click', () => navLinks.classList.toggle('open'));
   navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
-
-  if (window.netlifyIdentity) {
-    netlifyIdentity.on('init', user => {
-      if (user) document.getElementById('editLoginLink').textContent = 'Uredi stranicu';
-    });
-    netlifyIdentity.on('login', () => { window.location.href = '/admin/'; });
-    document.getElementById('editLoginLink').addEventListener('click', e => {
-      e.preventDefault();
-      const user = netlifyIdentity.currentUser();
-      if (user) { window.location.href = '/admin/'; } else { netlifyIdentity.open(); }
-    });
-  }
 </script>
 
 </body>

@@ -1,9 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: CKMdubrovnik/korak-web
   branch: main
 
-# Pristup uređivanju je ograničen na prijavu putem Netlify Identity —
-# vidi netlify/functions/identity-signup.js za ograničenje na @ckmdubrovnik.hr
+# Pristup uređivanju ide preko prijave GitHub računom.
+# Tko smije uređivati kontrolira se dodavanjem/uklanjanjem članova
+# u GitHub organizaciji CKMdubrovnik (Settings -> Collaborators and teams).
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
