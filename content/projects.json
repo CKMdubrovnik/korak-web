@@ -1,0 +1,166 @@
+{
+  "intro": {
+    "eyebrow": "Naši projekti",
+    "title_line1": "Svaki projekt je",
+    "title_line2": "jedan korak naprijed.",
+    "lead": "Od osnutka 2018. proveli smo 13 odobrenih projekata ukupne vrijednosti oko 225.000 € — od zelenih inicijativa sa školama i djecom do europskih partnerstava u kojima vodimo radne pakete."
+  },
+  "flagship": {
+    "tag": "ERASMUS+ KA2 · OBRAZOVANJE ODRASLIH · U PROVEDBI 2025–2027",
+    "title": "Adapt & Solve",
+    "lead": "Naš najveći aktualni projekt: međunarodno partnerstvo u kojem KORAK vodi cijeli radni paket treninga edukatora i pilot-provedbe (WP3) te suvodi WP4.",
+    "desc": "Projekt osnažuje niskokvalificirane odrasle (25–55 godina) za adaptivno rješavanje problema u svakodnevici, poslu i digitalnom okruženju, a paralelno jača kompetencije edukatora u obrazovanju odraslih. KORAK dizajnira toolkit za edukatore, organizira trening edukatora u Dubrovniku, koordinira pilot-treninge i vodi analizu povratnih informacija.",
+    "partners": "JumpIN Hub (Portugal, koordinator) · Curaçao Informatica Stimuleringsplan · Charisma (Poljska) · KORAK (Hrvatska)",
+    "value": "120.000 € (cijeli konzorcij)",
+    "results_title": "Što projekt donosi",
+    "results": [
+      "Priručnik Think, Act, Solve za adaptivno rješavanje problema",
+      "Toolkit za edukatore — dizajnira KORAK",
+      "4 interaktivne playliste (Cities of Learning) i 16 digitalnih bedževa",
+      "8 edukativnih videa",
+      "Trening edukatora (LTTA) u Dubrovniku za 8 edukatora",
+      "Pilot-treninzi s 80 odraslih polaznika u 4 zemlje"
+    ]
+  },
+  "timeline_title": "Korak po korak — svi projekti",
+  "timeline_sub": "Kronološki pregled odobrenih projekata udruge KORAK od 2021. do danas.",
+  "disclaimer": "Navedeni iznosi su ukupne vrijednosti odobrenih grantova. Kod EU projekata (Adapt & Solve, The Power of Human Intelligence) iznos se odnosi na cijeli međunarodni konzorcij, a KORAK raspolaže svojim dijelom proračuna.",
+  "timeline": [
+    {
+      "year": "2021",
+      "title": "Zeleni korak",
+      "program": "Dubrovačko-neretvanska županija",
+      "amount": "1.333 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Prvi u nizu zelenih projekata udruge — ekološke aktivnosti i podizanje svijesti o zaštiti okoliša u lokalnoj zajednici."
+    },
+    {
+      "year": "2022",
+      "title": "Korak u sigurnost",
+      "program": "ESF — Jačanje kapaciteta OCD",
+      "amount": "66.104 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Edukacija javnosti o potresima i postavljanje oznaka evakuacijskih mjesta u Dubrovniku, u partnerstvu s CKM Dubrovnik. Sufinancirala Europska unija iz Europskog socijalnog fonda."
+    },
+    {
+      "year": "2022",
+      "title": "Zero Waste Network",
+      "program": "Ministarstvo znanosti i obrazovanja",
+      "amount": "13.248 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Jačanje kompetencija nastavnog i nenastavnog osoblja škola za pisanje i provedbu projekata te edukacija o razvrstavanju otpada, recikliranju, kompostiranju i održivosti, u partnerstvu s udrugom Bura Budućnosti Senj."
+    },
+    {
+      "year": "2022",
+      "title": "Dutopia",
+      "program": "Dubrovačko-neretvanska županija",
+      "amount": "1.066 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Projekt za održiviji Dubrovnik proveden uz potporu Dubrovačko-neretvanske županije."
+    },
+    {
+      "year": "2022/23",
+      "title": "Zeleni korak za školarce",
+      "program": "Grad Dubrovnik",
+      "amount": "933 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Ekološke radionice i aktivnosti za dubrovačke školarce."
+    },
+    {
+      "year": "2023",
+      "title": "Think Green",
+      "program": "Europske snage solidarnosti (ESC30-SOL)",
+      "amount": "5.888 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Projekt solidarnosti u kojem su mladi kroz volonterske aktivnosti promicali zelene navike i održivost u zajednici."
+    },
+    {
+      "year": "2023",
+      "title": "Očuvajmo prirodu zajedno",
+      "program": "Dubrovačko-neretvanska županija",
+      "amount": "1.327 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Aktivnosti očuvanja prirode i uključivanja lokalne zajednice u brigu o okolišu."
+    },
+    {
+      "year": "2023/24",
+      "title": "Eco Korak",
+      "program": "Grad Dubrovnik",
+      "amount": "1.760 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Ekološka edukacija i zelene aktivnosti u Dubrovniku."
+    },
+    {
+      "year": "2024",
+      "title": "Zeleni korak za mališane",
+      "program": "Dubrovačko-neretvanska županija",
+      "amount": "1.860 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Ekološke aktivnosti prilagođene najmlađima — prvi zeleni koraci za djecu vrtićke i rane školske dobi."
+    },
+    {
+      "year": "2025",
+      "title": "The Power of Human Intelligence",
+      "program": "Erasmus+ KA1 (koordinator FCV, Španjolska)",
+      "amount": "≈8.000 €",
+      "role": "Partner",
+      "status": "",
+      "desc": "Međunarodni projekt mobilnosti u kojem je KORAK sudjelovao kao jedna od 11 partnerskih organizacija."
+    },
+    {
+      "year": "2025",
+      "title": "Zeleni val — učenici za klimu i prirodu",
+      "program": "Dubrovačko-neretvanska županija",
+      "amount": "1.860 €",
+      "role": "Koordinator",
+      "status": "",
+      "desc": "Klimatske i prirodoslovne aktivnosti za učenike, u partnerstvu s Osnovnom školom Ivana Gundulića."
+    },
+    {
+      "year": "2025/26",
+      "title": "KORAK za hranu, KORAK za okoliš",
+      "program": "Grad Dubrovnik",
+      "amount": "1.850 €",
+      "role": "Koordinator",
+      "status": "u provedbi",
+      "desc": "Projekt o održivoj prehrani i odnosu hrane i okoliša — trenutno u provedbi."
+    },
+    {
+      "year": "2025–27",
+      "title": "Adapt & Solve",
+      "program": "Erasmus+ KA2 — obrazovanje odraslih",
+      "amount": "120.000 € (konzorcij)",
+      "role": "Vodimo WP3",
+      "status": "u provedbi",
+      "desc": "Naš aktualni flagship projekt — detalji na vrhu stranice."
+    }
+  ],
+  "pipeline_title": "Sljedeći koraci — u pripremi",
+  "pipeline_sub": "Prijave u postupku ili u pripremi. Navedeno nije odobreno financiranje.",
+  "pipeline": [
+    {
+      "title": "Circular Neighbourhoods",
+      "program": "EU program — prijava u postupku",
+      "desc": "Projekt kružnog gospodarstva u susjedstvima; radni plan s četiri radna paketa je pripremljen."
+    },
+    {
+      "title": "GREEN-VET",
+      "program": "Erasmus+ KA220-VET",
+      "desc": "Partnerstvo u konzorciju rumunjske strukovne škole za zeleno strukovno obrazovanje; ishod prijave se čeka."
+    },
+    {
+      "title": "NGO Leaders and Peacebuilders",
+      "program": "Erasmus+ KA152",
+      "desc": "Mobilnost mladih u organizaciji Fundació Catalunya Voluntària, planirana za studeni 2026."
+    }
+  ]
+}

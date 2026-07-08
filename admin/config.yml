@@ -92,3 +92,52 @@ collections:
               - { label: "Telefon", name: "phone", widget: "string" }
               - { label: "Predsjednik udruge", name: "president", widget: "string" }
               - { label: "Voditeljica projekata", name: "project_lead", widget: "string", required: false }
+      - file: "content/projects.json"
+        label: "Podstranica Projekti (projekti.html)"
+        name: "projects_page"
+        fields:
+          - label: "Uvod (vrh stranice)"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Značka iznad naslova", name: "eyebrow", widget: "string" }
+              - { label: "Naslov — 1. redak", name: "title_line1", widget: "string" }
+              - { label: "Naslov — 2. redak (zelena boja)", name: "title_line2", widget: "string" }
+              - { label: "Uvodni tekst", name: "lead", widget: "text" }
+          - label: "Glavni projekt (flagship)"
+            name: "flagship"
+            widget: "object"
+            fields:
+              - { label: "Oznaka (program, razdoblje)", name: "tag", widget: "string" }
+              - { label: "Naslov", name: "title", widget: "string" }
+              - { label: "Istaknuta rečenica", name: "lead", widget: "text" }
+              - { label: "Opis", name: "desc", widget: "text" }
+              - { label: "Partneri", name: "partners", widget: "string" }
+              - { label: "Vrijednost", name: "value", widget: "string" }
+              - { label: "Naslov popisa rezultata", name: "results_title", widget: "string" }
+              - label: "Rezultati (popis)"
+                name: "results"
+                widget: "list"
+          - { label: "Naslov vremenske crte", name: "timeline_title", widget: "string" }
+          - { label: "Podnaslov vremenske crte", name: "timeline_sub", widget: "string" }
+          - { label: "Napomena o iznosima (disclaimer)", name: "disclaimer", widget: "text" }
+          - label: "Projekti na vremenskoj crti"
+            name: "timeline"
+            widget: "list"
+            fields:
+              - { label: "Godina / razdoblje", name: "year", widget: "string" }
+              - { label: "Naziv projekta", name: "title", widget: "string" }
+              - { label: "Program / financijer", name: "program", widget: "string" }
+              - { label: "Iznos granta", name: "amount", widget: "string" }
+              - { label: "Uloga (Koordinator / Partner...)", name: "role", widget: "string" }
+              - { label: "Status (npr. 'u provedbi', prazno = završen)", name: "status", widget: "string", required: false, default: "" }
+              - { label: "Opis", name: "desc", widget: "text" }
+          - { label: "Naslov sekcije 'u pripremi'", name: "pipeline_title", widget: "string" }
+          - { label: "Podnaslov sekcije 'u pripremi'", name: "pipeline_sub", widget: "string" }
+          - label: "Projekti u pripremi (NE odobreni!)"
+            name: "pipeline"
+            widget: "list"
+            fields:
+              - { label: "Naziv", name: "title", widget: "string" }
+              - { label: "Program", name: "program", widget: "string" }
+              - { label: "Opis", name: "desc", widget: "text" }
