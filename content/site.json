@@ -1,47 +1,54 @@
 {
   "hero": {
-    "badge": "🌱 Društveno poduzetništvo · Održivi razvoj · Zajednica",
+    "badge": "🌱 Održivi razvoj · Društveno poduzetništvo · Ekologija",
     "title_line1": "Gradimo održivu",
     "title_line2": "budućnost Dubrovnika,",
     "title_line3": "korak po korak.",
-    "lead": "KORAK je udruga za kreativno-održivi razvoj i konkurentnost koja od 2018. jača društveno poduzetništvo, okolišnu svijest i suradnju između udruga, škola, poslovnog sektora i lokalne zajednice.",
-    "cta_primary": "Upoznaj naše programe →",
+    "lead": "KORAK je udruga za kreativno-održivi razvoj i konkurentnost koja od 2018. jača temelje društvenog poduzetništva i održivog razvoja — kroz edukativne programe, resurse i međusektorsku suradnju udruga, škola, poslovnog sektora i lokalne zajednice.",
+    "cta_primary": "Upoznaj naše projekte →",
     "cta_secondary": "Postani volonter",
     "cards": [
-      { "icon": "♻️", "label": "Zero Waste Network" },
-      { "icon": "🏗️", "label": "Korak u sigurnost" },
-      { "icon": "🤝", "label": "Društveno poduzetništvo" },
+      { "icon": "🇪🇺", "label": "Adapt & Solve — Erasmus+ projekt u provedbi" },
+      { "icon": "♻️", "label": "Ekologija i zaštita okoliša" },
+      { "icon": "🤝", "label": "Društveno (zeleno) poduzetništvo" },
       { "icon": "🌍", "label": "Dio CKM Dubrovnik obitelji" }
     ]
   },
   "stats": [
     { "num": "2018.", "label": "Godina osnivanja udruge KORAK" },
-    { "num": "2", "label": "Aktivna programa: Korak u sigurnost i Zero Waste Network" },
-    { "num": "4", "label": "Ključne skupine partnera: škole, poslovni sektor, uprava, mediji" },
-    { "num": "01", "label": "Jedan od programa krovne udruge CKM Dubrovnik" }
+    { "num": "13", "label": "Odobrenih projekata od osnutka" },
+    { "num": "≈225.000 €", "label": "Ukupna vrijednost odobrenih grantova — kod EU projekata iznos se odnosi na cijeli konzorcij" },
+    { "num": "4", "label": "Zemlje u aktualnom Erasmus+ konzorciju Adapt & Solve" }
   ],
   "about": {
-    "intro": "KORAK Dubrovnik djeluje u području društvenog poduzetništva i održivog razvoja, povezujući edukaciju, resurse i međusektorsku suradnju.",
-    "mission": "Jačanje temelja društvenog poduzetništva i održivog razvoja u regiji kroz edukativne programe, resurse i međusektorsku suradnju — s ciljem izgradnje podrške poduzetnicima posvećenima unaprjeđenju društvene i okolišne stvarnosti Dubrovnika.",
-    "vision": "Podizanje svijesti o održivim praksama, motiviranje zajednice na pozitivne promjene te izgradnja stabilne, dugoročno prosperitetne društveno-poduzetničke infrastrukture regije.",
+    "intro": "KORAK Dubrovnik djeluje u području ekologije i zaštite okoliša, održivog razvoja, društvenog (zelenog) poduzetništva, javnih politika o održivosti i angažmana mladih.",
+    "mission": "Jačati temelje društvenog poduzetništva i održivog razvoja u regiji — kroz resurse, edukativne programe i međusektorsku suradnju izgraditi podršku poduzetnicima posvećenima unaprjeđenju društvene i okolišne stvarnosti Dubrovnika.",
+    "vision": "Dubrovnik kao prepoznatljivo i dinamično okruženje u kojem društveno poduzetništvo cvjeta, inovacije podupiru održivi razvoj, a društveno-poduzetničke inicijative grade inkluzivno društvo s jednakim prilikama za sve — uz ravnotežu ekonomskog rasta i očuvanja prirodnih resursa.",
     "audience": [
       "Društveni poduzetnici",
       "Škole i nastavno osoblje",
       "Učenici i mladi",
+      "Odrasli polaznici edukacija",
       "Lokalna zajednica Dubrovnika",
-      "Donatori i partneri",
       "Javni i privatni sektor"
     ]
   },
   "programs": [
-    { "icon": "📚", "title": "Edukacija i radionice", "desc": "Neformalni edukativni programi za škole i zajednicu — od zaštite okoliša do osobnih i profesionalnih vještina." },
+    { "icon": "📚", "title": "Edukacija i radionice", "desc": "Neformalni edukativni programi za škole, odrasle i zajednicu — od zaštite okoliša do osobnih i profesionalnih vještina." },
     { "icon": "🤝", "title": "Umrežavanje i suradnja", "desc": "Povezujemo udruge, škole, sveučilišta, poslovni sektor i lokalnu samoupravu radi zajedničkih inicijativa." },
-    { "icon": "💶", "title": "Resursi i financijska podrška", "desc": "Posredujemo između poduzetnika i izvora financiranja — subvencija, kredita, investicija i crowdfundinga." },
+    { "icon": "🇪🇺", "title": "EU projekti", "desc": "Provodimo Erasmus+, ESF i ESC projekte — od lokalnih zelenih inicijativa do međunarodnih partnerstava u kojima vodimo radne pakete." },
     { "icon": "📣", "title": "Promocija i javna svijest", "desc": "Kampanje i komunikacija koje podižu svijest o održivim praksama i društvenom poduzetništvu." },
     { "icon": "📊", "title": "Mjerenje i evaluacija", "desc": "Pratimo učinak naših programa kako bismo ih kontinuirano unaprjeđivali." },
-    { "icon": "🏛️", "title": "Suradnja s vlašću", "desc": "Zagovaramo politike i sudjelujemo u natječajima koji podupiru održivi razvoj Dubrovnika." }
+    { "icon": "🏛️", "title": "Javne politike", "desc": "Zagovaramo politike i sudjelujemo u natječajima koji podupiru održivi razvoj Dubrovnika." }
   ],
   "projects": [
+    {
+      "brand": "default",
+      "tag": "ERASMUS+ · U PROVEDBI 2025–2027",
+      "title": "Adapt & Solve",
+      "desc": "Erasmus+ KA2 projekt obrazovanja odraslih u kojem KORAK vodi cijeli radni paket treninga edukatora i pilot-provedbe. S partnerima iz Portugala, Poljske i Curaçaa osnažujemo odrasle (25–55) za adaptivno rješavanje problema u svakodnevici, poslu i digitalnom okruženju — kroz priručnik „Think, Act, Solve”, toolkit za edukatore, digitalne playliste i pilot s 80 sudionika. Trening edukatora održava se u Dubrovniku.",
+      "badge": ""
+    },
     {
       "brand": "sigurnost",
       "tag": "SIGURNOST",
@@ -55,20 +62,33 @@
       "title": "Zero Waste Network",
       "desc": "Jačanje kompetencija nastavnog i nenastavnog osoblja škola za pisanje i provedbu projekata te neformalni edukativni program o razvrstavanju otpada, recikliranju, kompostiranju i održivosti — uz popratnu kampanju na društvenim mrežama.",
       "badge": ""
+    },
+    {
+      "brand": "default",
+      "tag": "ZELENI PROJEKTI",
+      "title": "Zeleni korak i lokalne inicijative",
+      "desc": "Niz lokalnih projekata sa školama i djecom: Zeleni korak, Zeleni korak za školarce i mališane, Eco Korak, Think Green, Očuvajmo prirodu zajedno, Zeleni val te KORAK za hranu, KORAK za okoliš — uz podršku Grada Dubrovnika, Dubrovačko-neretvanske županije i Europskih snaga solidarnosti.",
+      "badge": ""
     }
   ],
   "partners": [
-    "Udruge i NVO",
+    "CKM Dubrovnik",
+    "ESN Dubrovnik",
+    "Bura Budućnosti Senj",
+    "OŠ Ivana Gundulića",
+    "JumpIN Hub (Portugal)",
+    "Charisma (Poljska)",
     "Škole i sveučilišta",
     "Poslovni sektor",
     "Lokalna samouprava",
-    "Mediji"
+    "Europski partneri"
   ],
   "contact": {
     "address_line1": "Obala Ivana Pavla II 44a",
     "address_line2": "20000 Dubrovnik",
-    "email": "marko.zmirak@ckmdubrovnik.hr",
-    "phone": "+385 99 422 7167",
-    "president": "Marko Žmirak"
+    "email": "emilio.butigan@gmail.com",
+    "phone": "+385 98 971 6886",
+    "president": "Emilio Butigan",
+    "project_lead": "Marija Šiljeg"
   }
 }

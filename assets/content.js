@@ -102,6 +102,11 @@
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">🧑‍💼</span>
         <div><strong>Predsjednik udruge</strong><span>${contact.president}</span></div>
       </div>
+      ${contact.project_lead ? `
+      <div class="contact-row">
+        <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">📋</span>
+        <div><strong>Voditeljica projekata</strong><span>${contact.project_lead}</span></div>
+      </div>` : ''}
     `;
 
     const mapAddress = `${contact.address_line1}, ${contact.address_line2}`;

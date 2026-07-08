@@ -91,3 +91,4 @@ collections:
               - { label: "E-mail", name: "email", widget: "string" }
               - { label: "Telefon", name: "phone", widget: "string" }
               - { label: "Predsjednik udruge", name: "president", widget: "string" }
+              - { label: "Voditeljica projekata", name: "project_lead", widget: "string", required: false }
