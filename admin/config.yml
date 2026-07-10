@@ -2,8 +2,8 @@ backend:
   name: github
   repo: CKMdubrovnik/korak-web
   branch: main
-  base_url: https://brilliant-speculoos-aaf9c3.netlify.app/.netlify/functions
-  auth_endpoint: auth
+  base_url: https://brilliant-speculoos-aaf9c3.netlify.app
+  auth_endpoint: .netlify/functions/auth
 
 # Pristup uređivanju ide preko prijave GitHub računom.
 # Tko smije uređivati kontrolira se dodavanjem/uklanjanjem članova
