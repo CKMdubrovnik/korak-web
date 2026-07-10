@@ -318,6 +318,28 @@ section{padding:80px 0;}
 .pipeline-card .prog{font-size:13px;font-weight:600;color:var(--green-text);margin:0 0 10px;}
 .pipeline-card p{color:var(--muted);font-size:14px;margin:0;}
 
+/* ADMIN PRIJAVA — kutni gumb */
+.admin-corner{
+  position:fixed;right:18px;bottom:18px;z-index:60;
+  width:46px;height:46px;border-radius:50%;
+  background:#fff;border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:19px;box-shadow:0 4px 14px rgba(0,29,64,0.15);
+  opacity:.55;transition:opacity .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.admin-corner:hover,.admin-corner:focus-visible{
+  opacity:1;transform:translateY(-2px);
+  box-shadow:0 8px 20px rgba(0,29,64,0.22);
+  outline:2px solid var(--green);outline-offset:2px;
+}
+.admin-corner .tip{
+  position:absolute;right:54px;top:50%;transform:translateY(-50%);
+  background:var(--blue-dark);color:#fff;font-size:12.5px;font-weight:600;
+  padding:5px 12px;border-radius:999px;white-space:nowrap;
+  opacity:0;pointer-events:none;transition:opacity .15s ease;
+}
+.admin-corner:hover .tip,.admin-corner:focus-visible .tip{opacity:1;}
+
 /* FOOTER */
 footer{background:var(--blue-deep);color:#c9d9ec;padding:56px 0 24px;}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px;padding-bottom:36px;border-bottom:1px solid rgba(255,255,255,0.1);}
