@@ -6,6 +6,13 @@
   <title>Uređivanje sadržaja — KORAK Dubrovnik</title>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <div id="cms-loading" style="font-family:system-ui,sans-serif;text-align:center;padding:80px 20px;color:#5a6b7a;">
+    Učitavanje sučelja za uređivanje…<br>
+    <small>Ako se ovo prikazuje dulje od ~10 sekundi, osvježi stranicu (Ctrl+F5).</small>
+  </div>
+  <script src="decap-cms.js" onerror="document.getElementById('cms-loading').innerHTML='Greška: CMS skripta se nije učitala. Osvježi stranicu ili javi administratoru.'"></script>
+  <script>
+    if (window.CMS) { var l = document.getElementById('cms-loading'); if (l) l.remove(); }
+  </script>
 </body>
 </html>
