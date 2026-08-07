@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://brilliant-speculoos-aaf9c3.netlify.app/sitemap.xml
+Sitemap: https://korakdubrovnik.hr/sitemap.xml
