@@ -84,11 +84,12 @@
   }
 
   function renderContact(contact) {
+    const L = Object.assign({address:'Adresa',phone:'Telefon',president:'Predsjednik udruge',lead:'Voditeljica projekata',map:'Otvori na Google Karte \u2192'}, contact.labels||{});
     const card = document.getElementById('contactInfoCard');
     card.innerHTML = `
       <div class="contact-row">
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">📍</span>
-        <div><strong>Adresa</strong><span>${contact.address_line1}, ${contact.address_line2}</span></div>
+        <div><strong>${L.address}</strong><span>${contact.address_line1}, ${contact.address_line2}</span></div>
       </div>
       <div class="contact-row">
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">✉️</span>
@@ -96,21 +97,22 @@
       </div>
       <div class="contact-row">
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">📞</span>
-        <div><strong>Telefon</strong><span><a href="tel:${contact.phone.replace(/\s+/g, '')}">${contact.phone}</a></span></div>
+        <div><strong>${L.phone}</strong><span><a href="tel:${contact.phone.replace(/\s+/g, '')}">${contact.phone}</a></span></div>
       </div>
       <div class="contact-row">
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">🧑‍💼</span>
-        <div><strong>Predsjednik udruge</strong><span>${contact.president}</span></div>
+        <div><strong>${L.president}</strong><span>${contact.president}</span></div>
       </div>
       ${contact.project_lead ? `
       <div class="contact-row">
         <span class="icon-circle" style="width:36px;height:36px;font-size:16px;">📋</span>
-        <div><strong>Voditeljica projekata</strong><span>${contact.project_lead}</span></div>
+        <div><strong>${L.lead}</strong><span>${contact.project_lead}</span></div>
       </div>` : ''}
     `;
 
     const mapAddress = `${contact.address_line1}, ${contact.address_line2}`;
     document.getElementById('mapAddress').textContent = mapAddress;
+    const mapHint=document.querySelector('#mapLink span[style*="font-weight:400"]'); if(mapHint) mapHint.textContent=L.map;
     document.getElementById('mapLink').href =
       'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(mapAddress);
 
@@ -126,7 +128,7 @@
       (document.querySelector('a[href^="mailto:"].btn-primary').href = `mailto:${contact.email}`);
   }
 
-  fetch('content/site.json', { cache: 'no-store' })
+  fetch(window.CONTENT_SRC || 'content/site.json', { cache: 'no-store' })
     .then(r => r.json())
     .then(data => {
       renderHero(data.hero);

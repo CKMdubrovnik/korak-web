@@ -35,6 +35,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://korakdubrovnik.hr/">
+<meta property="og:url" content="https://korakdubrovnik.hr/">
+<link rel="alternate" hreflang="hr" href="https://korakdubrovnik.hr/">
+<link rel="alternate" hreflang="en" href="https://korakdubrovnik.hr/en/">
+<link rel="alternate" hreflang="x-default" href="https://korakdubrovnik.hr/">
 <link rel="stylesheet" href="assets/style.css">
 <script src="https://radar.157.90.233.160.sslip.io/b.js" defer></script>
 </head>
@@ -61,6 +66,7 @@
     <div class="nav-cta">
       <a href="#kontakt" class="btn btn-outline">Postani partner</a>
     </div>
+    <a href="en/index.html" class="btn btn-outline" style="margin-left:10px;padding:8px 14px;" title="English">EN</a>
     <button class="burger" id="burgerBtn" aria-label="Izbornik">☰</button>
   </nav>
 </header>
@@ -177,8 +183,8 @@
     <div class="contact-form-card">
       <h3>Pošalji nam poruku</h3>
       <p class="form-note">Odgovaramo u roku od nekoliko dana. Polja označena * su obavezna.</p>
-      <form name="kontakt" method="POST" action="/hvala.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
-        <input type="hidden" name="form-name" value="kontakt">
+      <form name="kontakt" method="POST" action="/kontakt.php" class="contact-form">
+        
         <p hidden aria-hidden="true"><label>Ne popunjavaj ovo polje: <input name="bot-field"></label></p>
         <div>
           <label for="f-ime">Ime i prezime *</label>

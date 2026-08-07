@@ -1,0 +1,168 @@
+{
+  "intro": {
+    "eyebrow": "Our projects",
+    "title_line1": "Every project is",
+    "title_line2": "one step forward.",
+    "lead": "Since our founding in 2018 we have implemented 13 approved projects with a total value of around €225,000, from green initiatives with schools and children to European partnerships in which we lead work packages."
+  },
+  "flagship": {
+    "tag": "ERASMUS+ KA2 · ADULT EDUCATION · IN PROGRESS 2025–2027",
+    "title": "Adapt & Solve",
+    "lead": "Our largest current project: an international partnership in which KORAK leads the entire work package of educator training and pilot implementation (WP3) and co-leads WP4.",
+    "desc": "The project empowers low-skilled adults (aged 25–55) for adaptive problem solving in everyday life, at work and in the digital environment, while also strengthening the competences of adult educators. KORAK designs the educator toolkit, organises the educator training in Dubrovnik, coordinates the pilot trainings and leads the feedback analysis.",
+    "partners": "JumpIN Hub (Portugal, coordinator) · Curaçao Informatica Stimuleringsplan · Charisma (Poland) · KORAK (Croatia)",
+    "partners_label": "Partners",
+    "value": "€120,000 (whole consortium)",
+    "value_label": "Value",
+    "results_title": "What the project delivers",
+    "results": [
+      "The Think, Act, Solve handbook for adaptive problem solving",
+      "An educator toolkit designed by KORAK",
+      "4 interactive playlists (Cities of Learning) and 16 digital badges",
+      "8 educational videos",
+      "Educator training (LTTA) in Dubrovnik for 8 educators",
+      "Pilot trainings with 80 adult participants in 4 countries"
+    ]
+  },
+  "timeline_title": "Step by step, all our projects",
+  "timeline_sub": "A chronological overview of KORAK's approved projects from 2021 to today.",
+  "disclaimer": "The amounts listed are the total values of approved grants. For EU projects (Adapt & Solve, The Power of Human Intelligence) the amount refers to the whole international consortium, and KORAK manages its own share of the budget.",
+  "timeline": [
+    {
+      "year": "2021",
+      "title": "Zeleni korak",
+      "program": "Dubrovnik-Neretva County",
+      "amount": "€1,333",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "The first in a series of the association's green projects: environmental activities and raising awareness of environmental protection in the local community."
+    },
+    {
+      "year": "2022",
+      "title": "Korak u sigurnost (A Step into Safety)",
+      "program": "ESF, Strengthening CSO capacities",
+      "amount": "€66,104",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Public education about earthquakes and the installation of evacuation point signs in Dubrovnik, in partnership with CKM Dubrovnik. Co-financed by the European Union through the European Social Fund."
+    },
+    {
+      "year": "2022",
+      "title": "Zero Waste Network",
+      "program": "Ministry of Science and Education",
+      "amount": "€13,248",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Strengthening the competences of school staff for writing and implementing projects, together with education on waste sorting, recycling, composting and sustainability, in partnership with the association Bura Budućnosti Senj."
+    },
+    {
+      "year": "2022",
+      "title": "Dutopia",
+      "program": "Dubrovnik-Neretva County",
+      "amount": "€1,066",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "A project for a more sustainable Dubrovnik, implemented with the support of Dubrovnik-Neretva County."
+    },
+    {
+      "year": "2022/23",
+      "title": "Zeleni korak za školarce",
+      "program": "City of Dubrovnik",
+      "amount": "€933",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Environmental workshops and activities for Dubrovnik pupils."
+    },
+    {
+      "year": "2023",
+      "title": "Think Green",
+      "program": "European Solidarity Corps (ESC30-SOL)",
+      "amount": "€5,888",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "A solidarity project in which young people promoted green habits and sustainability in the community through volunteering."
+    },
+    {
+      "year": "2023",
+      "title": "Očuvajmo prirodu zajedno",
+      "program": "Dubrovnik-Neretva County",
+      "amount": "€1,327",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Nature conservation activities and involving the local community in caring for the environment."
+    },
+    {
+      "year": "2023/24",
+      "title": "Eco Korak",
+      "program": "City of Dubrovnik",
+      "amount": "€1,760",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Environmental education and green activities in Dubrovnik."
+    },
+    {
+      "year": "2024",
+      "title": "Zeleni korak za mališane",
+      "program": "Dubrovnik-Neretva County",
+      "amount": "€1,860",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Environmental activities adapted to the youngest, first green steps for children of kindergarten and early school age."
+    },
+    {
+      "year": "2025",
+      "title": "The Power of Human Intelligence",
+      "program": "Erasmus+ KA1 (coordinator FCV, Spain)",
+      "amount": "≈€8,000",
+      "role": "Partner",
+      "status": "",
+      "desc": "An international mobility project in which KORAK took part as one of 11 partner organisations."
+    },
+    {
+      "year": "2025",
+      "title": "Zeleni val, pupils for climate and nature",
+      "program": "Dubrovnik-Neretva County",
+      "amount": "€1,860",
+      "role": "Coordinator",
+      "status": "",
+      "desc": "Climate and nature activities for pupils, in partnership with Ivan Gundulić Primary School."
+    },
+    {
+      "year": "2025/26",
+      "title": "KORAK for Food, KORAK for the Environment",
+      "program": "City of Dubrovnik",
+      "amount": "€1,850",
+      "role": "Coordinator",
+      "status": "in progress",
+      "desc": "A project on sustainable food and the relationship between food and the environment, currently in progress."
+    },
+    {
+      "year": "2025–27",
+      "title": "Adapt & Solve",
+      "program": "Erasmus+ KA2, adult education",
+      "amount": "€120,000 (consortium)",
+      "role": "We lead WP3",
+      "status": "in progress",
+      "desc": "Our current flagship project, details at the top of the page."
+    }
+  ],
+  "pipeline_title": "Next steps, in preparation",
+  "pipeline_sub": "Applications submitted or in preparation. These are not approved grants.",
+  "pipeline": [
+    {
+      "title": "Circular Neighbourhoods",
+      "program": "EU programme, application submitted",
+      "desc": "A circular economy project in neighbourhoods; a work plan with four work packages has been prepared."
+    },
+    {
+      "title": "GREEN-VET",
+      "program": "Erasmus+ KA220-VET",
+      "desc": "A consortium partnership led by a Romanian vocational school for green vocational education; the outcome of the application is pending."
+    },
+    {
+      "title": "NGO Leaders and Peacebuilders",
+      "program": "Erasmus+ KA152",
+      "desc": "A youth mobility organised by Fundació Catalunya Voluntària, planned for November 2026."
+    }
+  ]
+}

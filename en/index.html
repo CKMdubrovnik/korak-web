@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KORAK Dubrovnik | Social Entrepreneurship and Sustainable Development</title>
+<meta name="description" content="KORAK Dubrovnik je udruga za kreativno-održivi razvoj i konkurentnost. Od 2018. jačamo društveno poduzetništvo, održivi razvoj i zelenu tranziciju u Dubrovniku — 13 odobrenih projekata, uključujući Erasmus+ partnerstvo Adapt & Solve.">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="icon" href="../assets/korak-logo.png">
+<meta property="og:title" content="KORAK Dubrovnik — Društveno poduzetništvo i održivi razvoj">
+<meta property="og:description" content="Gradimo održivu budućnost Dubrovnika, korak po korak. 13 odobrenih projekata od 2018. — od zelenih inicijativa do europskih partnerstava.">
+<meta property="og:image" content="https://korakdubrovnik.hr/assets/korak-logo.png">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "KORAK Dubrovnik",
+  "legalName": "Udruga za kreativno-održivi razvoj i konkurentnost Dubrovnik",
+  "foundingDate": "2018-07-09",
+  "email": "emilio.butigan@gmail.com",
+  "telephone": "+385989716886",
+  "taxID": "99127005116",
+  "logo": "https://korakdubrovnik.hr/assets/korak-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Obala Ivana Pavla II 44a",
+    "postalCode": "20000",
+    "addressLocality": "Dubrovnik",
+    "addressCountry": "HR"
+  },
+  "url": "https://korakdubrovnik.hr/"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://korakdubrovnik.hr/en/">
+<meta property="og:url" content="https://korakdubrovnik.hr/en/">
+<link rel="alternate" hreflang="hr" href="https://korakdubrovnik.hr/">
+<link rel="alternate" hreflang="en" href="https://korakdubrovnik.hr/en/">
+<link rel="alternate" hreflang="x-default" href="https://korakdubrovnik.hr/">
+<link rel="stylesheet" href="../assets/style.css">
+<script src="https://radar.157.90.233.160.sslip.io/b.js" defer></script>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#" class="brand">
+      <img src="../assets/korak-logo.png" alt="KORAK Dubrovnik logo">
+      <div>
+        <div class="brand-name">KORAK Dubrovnik</div>
+        <div class="brand-sub">Sustainable development &amp; entrepreneurship</div>
+      </div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#naslovnica" class="active">Home</a>
+      <a href="#o-nama">About us</a>
+      <a href="#programi">Programmes</a>
+      <a href="projekti.html">Projects</a>
+      <a href="#partneri">Partners</a>
+      <a href="dokumenti.html">Documents</a>
+      <a href="#kontakt">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#kontakt" class="btn btn-outline">Become a partner</a>
+    </div>
+    <a href="../index.html" class="btn btn-outline" style="margin-left:10px;padding:8px 14px;" title="Hrvatski">HR</a>
+    <button class="burger" id="burgerBtn" aria-label="Menu">☰</button>
+  </nav>
+</header>
+
+<section class="hero" id="naslovnica">
+  <div class="container hero-grid">
+    <div>
+      <span class="badge" id="heroBadge"></span>
+      <h1 id="heroTitle"></h1>
+      <p class="lead" id="heroLead"></p>
+      <div class="hero-actions">
+        <a href="projekti.html" class="btn btn-primary" id="heroCtaPrimary"></a>
+        <a href="#kontakt" class="btn btn-ghost" id="heroCtaSecondary"></a>
+      </div>
+    </div>
+    <div class="hero-cards" id="heroCards"></div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stat-grid" id="statsGrid"></div>
+  </div>
+</section>
+
+<section id="o-nama">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">About us</span>
+      <h2>Mission and vision</h2>
+      <p id="aboutIntro"></p>
+    </div>
+    <div class="about-grid">
+      <div class="about-blocks">
+        <div class="about-block">
+          <h3>🎯 Mission</h3>
+          <p id="aboutMission"></p>
+        </div>
+        <div class="about-block">
+          <h3>🔭 Vision</h3>
+          <p id="aboutVision"></p>
+        </div>
+      </div>
+      <div>
+        <h3 style="margin-top:0;color:var(--blue-dark);font-size:19px;">Who is KORAK for?</h3>
+        <ul class="audience-list" id="audienceList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="programi" style="background:#fff;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Programmes</span>
+      <h2>How we work</h2>
+      <p>Our work is based on education, networking and concrete support for people and projects building a more sustainable community.</p>
+    </div>
+    <div class="card-grid" id="programsGrid"></div>
+  </div>
+</section>
+
+<section id="projekti">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Projects</span>
+      <h2>Featured projects</h2>
+      <p>Concrete initiatives through which KORAK delivers its mission: 13 approved projects since 2018.</p>
+    </div>
+    <div class="projects-wrap" id="projectsWrap"></div>
+    <div class="projects-more">
+      <a href="projekti.html" class="btn btn-outline">All projects, step by step →</a>
+    </div>
+  </div>
+</section>
+
+<section id="partneri" class="partners">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" style="background:rgba(50,194,91,0.18);color:var(--green);">Partneri</span>
+      <h2>Who we work with</h2>
+      <p>KORAK builds a network of partnerships to achieve long-term, measurable impact in the community.</p>
+    </div>
+    <div class="partner-grid" id="partnerGrid"></div>
+  </div>
+</section>
+
+<section>
+  <div class="cta-band">
+    <h2>Want to get involved with KORAK?</h2>
+    <p>Whether you are an entrepreneur, a school, a volunteer or a donor, there is a place for you in our story.</p>
+    <div class="cta-actions">
+      <a href="mailto:emilio.butigan@gmail.com" class="btn btn-primary">Write to us →</a>
+      <a href="#kontakt" class="btn btn-ghost">See contact details</a>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Contact</span>
+      <h2>Get in touch</h2>
+      <p>For cooperation, volunteering, partnerships or any question, we are here.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-card" id="contactInfoCard"></div>
+      <a class="map-embed" id="mapLink" style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;background:var(--bg);color:var(--blue);font-weight:600;text-align:center;padding:20px;" target="_blank" rel="noopener">
+        <span style="font-size:40px;">📍</span>
+        <span id="mapAddress"></span>
+        <span style="font-weight:400;color:var(--muted);font-size:14px;">Open in Google Maps →</span>
+      </a>
+    </div>
+    <div class="contact-form-card">
+      <h3>Send us a message</h3>
+      <p class="form-note">We reply within a few days. Fields marked * are required.</p>
+      <form name="kontakt" method="POST" action="/kontakt.php?lang=en" class="contact-form">
+        
+        <p hidden aria-hidden="true"><label>Do not fill in this field: <input name="bot-field"></label></p>
+        <div>
+          <label for="f-ime">Full name *</label>
+          <input id="f-ime" type="text" name="ime" required autocomplete="name">
+        </div>
+        <div>
+          <label for="f-email">E-mail *</label>
+          <input id="f-email" type="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field-full">
+          <label for="f-poruka">Message *</label>
+          <textarea id="f-poruka" name="poruka" required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send message →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="../assets/korak-logo.png" alt="KORAK logo">
+          <span>KORAK Dubrovnik</span>
+        </div>
+        <p style="font-size:14.5px;max-width:280px;">Association for creative sustainable development and competitiveness, Dubrovnik.</p>
+        <p class="footer-ids">OIB 99127005116 · OID E10258849 · PIC 887374334</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#naslovnica">Home</a></li>
+          <li><a href="#o-nama">About us</a></li>
+          <li><a href="#programi">Programmes</a></li>
+          <li><a href="projekti.html">Projects</a></li>
+          <li><a href="dokumenti.html">Documents</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Partner associations</h4>
+        <ul>
+          <li><a href="https://ckmdubrovnik.hr/" target="_blank" rel="noopener">CKM Dubrovnik</a></li>
+          <li><a href="#">ESN Dubrovnik</a></li>
+          <li><a href="#">Bura Budućnosti Senj</a></li>
+          <li><a href="#">Učilište CKM</a></li>
+        </ul>
+      </div>
+      <div id="footerContact">
+        <h4>Contact</h4>
+        <ul></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> KORAK Dubrovnik. All rights reserved.</span>
+      <span><a href="/admin/" style="color:inherit;text-decoration:underline;">Uredi stranicu</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="/admin/" class="admin-corner" aria-label="Prijava za uređivanje stranice">✏️<span class="tip">Prijava za uređivanje</span></a>
+
+<script>window.CONTENT_SRC="../content/site.en.json";</script>
+<script src="../assets/content.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const burger = document.getElementById('burgerBtn');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+</script>
+
+</body>
+</html>

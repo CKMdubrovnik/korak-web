@@ -31,8 +31,8 @@
         <p class="flagship-lead">${f.lead}</p>
         <p>${f.desc}</p>
         <div class="flagship-meta">
-          <b>Partneri:</b> ${f.partners}<br>
-          <b>Vrijednost:</b> ${f.value}
+          <b>${f.partners_label||'Partneri'}:</b> ${f.partners}<br>
+          <b>${f.value_label||'Vrijednost'}:</b> ${f.value}
         </div>
       </div>
       <div class="flagship-results">
@@ -87,7 +87,7 @@
     });
   }
 
-  fetch('content/projects.json', { cache: 'no-store' })
+  fetch(window.PROJECTS_SRC || 'content/projects.json', { cache: 'no-store' })
     .then(r => r.json())
     .then(data => {
       renderIntro(data.intro);

@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "badge": "🌱 Sustainable development · Social entrepreneurship · Ecology",
+    "title_line1": "Building a sustainable",
+    "title_line2": "future for Dubrovnik,",
+    "title_line3": "step by step.",
+    "lead": "KORAK is an association for creative sustainable development and competitiveness. Since 2018 we have been strengthening the foundations of social entrepreneurship and sustainable development through educational programmes, resources and cross-sector cooperation between NGOs, schools, the business sector and the local community.",
+    "cta_primary": "Explore our projects →",
+    "cta_secondary": "Become a volunteer",
+    "cards": [
+      { "icon": "🇪🇺", "label": "Adapt & Solve, an Erasmus+ project in progress" },
+      { "icon": "♻️", "label": "Ecology and environmental protection" },
+      { "icon": "🤝", "label": "Social (green) entrepreneurship" },
+      { "icon": "📈", "label": "13 approved projects since 2018" }
+    ]
+  },
+  "stats": [
+    { "num": "2018", "label": "Year the KORAK association was founded" },
+    { "num": "13", "label": "Approved projects since our founding" },
+    { "num": "≈€225,000", "label": "Total value of approved grants. For EU projects the amount refers to the whole consortium" },
+    { "num": "4", "label": "Countries in the current Erasmus+ consortium Adapt & Solve" }
+  ],
+  "about": {
+    "intro": "KORAK Dubrovnik works in the fields of ecology and environmental protection, sustainable development, social (green) entrepreneurship, public sustainability policies and youth engagement.",
+    "mission": "To strengthen the foundations of social entrepreneurship and sustainable development in the region. Through resources, educational programmes and cross-sector cooperation we build support for entrepreneurs dedicated to improving the social and environmental reality of Dubrovnik.",
+    "vision": "Dubrovnik as a recognisable and dynamic environment where social entrepreneurship flourishes, innovation supports sustainable development, and social-entrepreneurial initiatives build an inclusive society with equal opportunities for all, balancing economic growth with the preservation of natural resources.",
+    "audience": [
+      "Social entrepreneurs",
+      "Schools and teaching staff",
+      "Pupils and young people",
+      "Adult learners",
+      "The local community of Dubrovnik",
+      "Public and private sector"
+    ]
+  },
+  "programs": [
+    { "icon": "📚", "title": "Education and workshops", "desc": "Non-formal educational programmes for schools, adults and the community, from environmental protection to personal and professional skills." },
+    { "icon": "🤝", "title": "Networking and cooperation", "desc": "We connect NGOs, schools, universities, the business sector and local government for joint initiatives." },
+    { "icon": "🇪🇺", "title": "EU projects", "desc": "We implement Erasmus+, ESF and ESC projects, from local green initiatives to international partnerships where we lead work packages." },
+    { "icon": "📣", "title": "Promotion and public awareness", "desc": "Campaigns and communication that raise awareness of sustainable practices and social entrepreneurship." },
+    { "icon": "📊", "title": "Measurement and evaluation", "desc": "We track the impact of our programmes so we can keep improving them." },
+    { "icon": "🏛️", "title": "Public policies", "desc": "We advocate policies and take part in calls that support the sustainable development of Dubrovnik." }
+  ],
+  "projects": [
+    {
+      "brand": "default",
+      "tag": "ERASMUS+ · IN PROGRESS 2025–2027",
+      "title": "Adapt & Solve",
+      "desc": "An Erasmus+ KA2 adult education project in which KORAK leads the entire work package of educator training and pilot implementation. Together with partners from Portugal, Poland and Curaçao we empower adults (25–55) for adaptive problem solving in everyday life, at work and in the digital environment, through the Think, Act, Solve handbook, an educator toolkit, digital playlists and a pilot with 80 participants. The educator training takes place in Dubrovnik.",
+      "badge": ""
+    },
+    {
+      "brand": "sigurnost",
+      "tag": "SAFETY",
+      "title": "Korak u sigurnost (A Step into Safety)",
+      "desc": "Public education about earthquakes and the installation of evacuation point signs in Dubrovnik, a project that builds community resilience to natural disasters. Co-financed by the European Union through the European Social Fund.",
+      "badge": "Own visual identity · ESF project"
+    },
+    {
+      "brand": "default",
+      "tag": "SUSTAINABILITY",
+      "title": "Zero Waste Network",
+      "desc": "Strengthening the competences of school teaching and non-teaching staff for writing and implementing projects, together with a non-formal educational programme on waste sorting, recycling, composting and sustainability, supported by a social media campaign.",
+      "badge": ""
+    },
+    {
+      "brand": "default",
+      "tag": "GREEN PROJECTS",
+      "title": "Zeleni korak and local initiatives",
+      "desc": "A series of local projects with schools and children: Zeleni korak, Zeleni korak for pupils and little ones, Eco Korak, Think Green, Let's Preserve Nature Together, Zeleni val, and KORAK for Food, KORAK for the Environment, supported by the City of Dubrovnik, Dubrovnik-Neretva County and the European Solidarity Corps.",
+      "badge": ""
+    }
+  ],
+  "partners": [
+    "CKM Dubrovnik",
+    "ESN Dubrovnik",
+    "Bura Budućnosti Senj",
+    "Ivan Gundulić Primary School",
+    "JumpIN Hub (Portugal)",
+    "Charisma (Poland)",
+    "Schools and universities",
+    "Business sector",
+    "Local government",
+    "European partners"
+  ],
+  "contact": {
+    "address_line1": "Obala Ivana Pavla II 44a",
+    "address_line2": "20000 Dubrovnik, Croatia",
+    "email": "emilio.butigan@gmail.com",
+    "phone": "+385 98 971 6886",
+    "president": "Emilio Butigan",
+    "project_lead": "Marija Šiljeg",
+    "labels": {
+      "address": "Address",
+      "phone": "Phone",
+      "president": "President of the association",
+      "lead": "Project manager",
+      "map": "Open in Google Maps →"
+    }
+  }
+}
